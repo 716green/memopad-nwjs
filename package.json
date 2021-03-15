@@ -4,10 +4,10 @@
   "private": true,
   "main": "http://localhost:8080",
   "scripts": {
-    "serve-vue": "vue-cli-service serve",
+    "serve": "vue-cli-service serve",
+    "app": "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/powershell.exe ./node_modules/.bin/run .",
     "vue-build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "serve": "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/powershell.exe ./node_modules/.bin/run .",
     "build86": "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/powershell.exe ./node_modules/.bin/build --tasks win-x86 .",
     "build64": "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/powershell.exe ./node_modules/.bin/build --tasks win-x64 .",
     "buildmac64": "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/powershell.exe ./node_modules/.bin/build --tasks mac-x64 .",
